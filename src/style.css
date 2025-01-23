@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav .logo {
+    color: white;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+header {
+    background: #295887;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5em; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header h2{
+    font-size: large;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5em; 
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}

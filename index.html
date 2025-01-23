@@ -1,15 +1,78 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Haoran Chen's Website</title>
-    <link rel="stylesheet" href="src/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haoran Chen | Portfolio</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script defer src="src/script.js"></script>
 </head>
 
 <body>
 
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Haoran Chen</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Hi, I'm Haoran Chen</h1>
+        <p>Software Developer | Web Developer | AI Enthusiast</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate software developer with experience in machine learning, blockchain, and web development. 
+        Currently, I'm working on projects that leverage AI to optimize decision-making and enhance user experience.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>AI Article Classifier</h3>
+                <p>A machine learning model that detects AI-generated academical paper using Random Forest, KNN, and Logistic Regression.</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Blockchain-based DER System</h3>
+                <p>Developed a decentralized energy resource communication and control system integrated with AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Python, JavaScript, Java</li>
+            <li>Machine Learning</li>
+            <li>Blockchain & Smart Contracts</li>
+            <li>Web Development (React, Node.js)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me!</p>
+        <a href="chr8227@gmail.com" class="cta-button">Email Me</a>
+    </section>
+
+    <footer>
+        <p>Website Hosting by AWS S3</p>
+        <p>© 2025 Haoran Chen. All Rights Reserved.</p>
+    </footer>
+
 </body>
-
-<section>
-
-</section>
-
+</html>
