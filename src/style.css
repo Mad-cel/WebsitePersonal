@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background: #222;
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,12 +32,17 @@ nav ul {
 }
 
 nav ul li {
+    float: left;
     margin-left: 20px;
+
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Hero Section */
