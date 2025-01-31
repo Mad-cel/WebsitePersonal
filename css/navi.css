@@ -1,0 +1,72 @@
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between; /* Ensures space between logo and links */
+    align-items: center;
+    background: #222;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures navbar stays on top */
+}
+
+/* Logo */
+nav .logo a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adds spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+/* Each Nav Item */
+nav ul li {
+    display: inline-block;
+}
+
+/* Nav Links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* Adds spacing inside each link */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    color: #0073e6;
+}
+
+/* Fix Overflow Issue */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+}
