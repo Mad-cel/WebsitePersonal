@@ -1,3 +1,20 @@
+/* Main Section Styling */
+main {
+    max-width: 800px;  /* Limits the content width */
+    margin: 80px auto 20px;  /* Centers the content and adjusts spacing */
+    padding: 20px;
+    line-height: 1.6;  /* Increases line spacing for better readability */
+    word-wrap: break-word;  /* Ensures long words break properly */
+}
+
+/* Paragraph Styling */
+main p {
+    font-size: 18px;  /* Adjusts font size */
+    color: #333;      /* Darker color for better readability */
+    text-align: center;  /* Justifies the text for a clean look */
+    margin-bottom: 15px;  /* Adds space between paragraphs */
+}
+
 /* Global Styles */
 body, html {
     font-family: Arial, sans-serif;
