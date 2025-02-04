@@ -23,14 +23,28 @@
             approximately how much of them are AI generated. This is to raise awareness about how much thoughtless generation might be going on in academia.</p>
 
         <h2>Project Overview</h2>
-        <p>Explain the project, its purpose, and key features.</p>
+        <p>
+            Datasets consists of 50 human-written papers and 50 AI-generated papers. Only papers published before 2016 were selected
+                avoid the possible uses of LLM models. The AI articles are generated using GPT4 which is the newest LLM model 
+                by Open AI at the time. All generated-paper were prompted with different topic, but similiar in format: at least 1500 words and in acadmical tunes
+        </p>
+
+        <p>
+            There are several feature were considered to be the determine factors between an AI-generated and human-written paper.
+            Those features includes average sentence length, average word length, comma frequency, punctuation frequency, unique word count and 
+            Zipf ratio. The Zipf ratio is a pattern that results from human writting where the frequency of a word correlates with a specific ratio of 
+            its usage compare to the ither words. 
+        </p>
 
         <h2>Technologies Used</h2>
-        <ul>
             <li>Python for machine learning</li>
             <li>Amazon S3 bucket for data storagement</li>
-        </ul>
 
+        <h2>Team Members</h2>
+            <li>Thanya Nguyen</li>
+            <li>Jake Marlow</li>
+            <li>Samuel Lavey</li>
+            <li>Haoran Chen</li>
         <h2>Links</h2>
         <a href="https://github.com/fdac24/generated-research" target="_blank">View on GitHub</a>
     </main>
